@@ -35,3 +35,45 @@ main #contact{
     gap: 0,5 rem;
 }
 
+
+main #contact .content form label {
+     font-weight: 500;
+}
+
+main #contact .content form input,
+main #contact .content form textarea{
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ffffff10;
+    border-radius: 0.5rem;
+    font-family: inherit; 
+    border: 0.063rem solid var(--cor-genérica);
+    resize: none;
+    font-size: 1rem;
+}
+
+main #contact .content form input,
+main #contact .content form textarea:focus {
+    outline: none;
+    border: 0.063rem solid var(--cor-secundaria);       
+}
+
+main #contact .content form button{
+    width: 15rem;
+    padding: 0.75rem;
+    color: var(--cor-principal);       
+    background-color: var(--cor-secundaria);
+    margin: 0.5rem auto 0;
+    border-radius: 1.563rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+main #contact .content form button:hover{
+   color: var(--cor-secundaria);
+    
+
+
+}

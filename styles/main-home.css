@@ -114,11 +114,3 @@ main #home .photo div img {
 main #home .photo div:hover {
     transform: scale(1.05);
 }
-
-main #contact{
-
-   width: 100%;
-   height: 100%;
-   padding: 8vh 18vw;
-
-}
